@@ -17,3 +17,7 @@ On the Admin side it enables the admin to manage user accounts.
 # More Information
 
 demo: http://devpushpanel.azurewebsites.net
+
+# License
+   
+   Evans and Mokaba Solutions
