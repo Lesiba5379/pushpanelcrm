@@ -1,0 +1,50 @@
+#clock{
+    background-image:url('');
+    background-size:cover;
+    background-position: center;
+    height: 400px; width: 350px;
+    border: 1px solid #bbb;
+    margin-left: 40px;
+}
+
+$spacing-unit: 20px;
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: $spacing-unit auto;
+    max-width: ($spacing-unit * 15);
+    line-height: 1.5;
+}
+
+input[type="text"], input[type="date"], select {
+    width: 100%;
+}
+
+.form-row {
+    margin: 0 0 $spacing-unit 0;
+}
+
+.form-label {
+    display: block;
+    font-weighT: 700;
+}
+
+dl:after {
+    display: table;
+    clear: both;
+}
+
+dt {
+    float: left;
+    clear: left;
+    font-weight: 700;
+}
+
+dd {
+    margin: 0;
+    float: right;
+}
+
